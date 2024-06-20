@@ -266,6 +266,16 @@ To follow along, install the following Python packages:
     - Test the impact of various preprocessing techniques on the normal equation's performance.
     - Note that the normal equation usually yields the best results without needing hyperparameter tuning.
 
-16. **Time Complexity**:
+16. Reformat the code using `black`
+    
+    ```bash
+    python -m black -l 120 -S *
+
+    ```
+    `-l 120` to change the default line length
+    `-S` to keep string as single quote
+    `*` wild char to format all files in the current directory
+
+18. **Time Complexity**:
     - Linear Regression: ( O(n * k * d) )
     - Normal Equation: ( O(d^3) 
