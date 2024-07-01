@@ -44,13 +44,13 @@ Each algorithm in this repository includes:
        - Comparison with Gradient Descent based on dataset characteristics.
      
 *  **Polynomial Regression:** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Polynomial%20regression)
-* **Extends linear regression:** Models non-linear input-output relationships by transforming features with polynomial functions (x², x³, etc.).
-* **Higher-dimensional space:**  Projects data into a higher dimension where linear relationships may exist.
-* **Model fitting:**  Uses standard linear regression techniques on the transformed features.
-* **Finding the optimal degree:**
-    * **Experiment:** Test different polynomial degrees and observe their impact on model fit.
-    * **Error analysis (MSE):** Identify the degree where error reduction plateaus, indicating a balance between bias and variance.
-    * **BIC:** Statistically penalizes model complexity to guide optimal degree selection.    
+  * **Extends linear regression:** Models non-linear input-output relationships by transforming features with polynomial functions (x², x³, etc.).
+  * **Higher-dimensional space:**  Projects data into a higher dimension where linear relationships may exist.
+  * **Model fitting:**  Uses standard linear regression techniques on the transformed features.
+  * **Finding the optimal degree:**
+     * **Experiment:** Test different polynomial degrees and observe their impact on model fit.
+     * **Error analysis (MSE):** Identify the degree where error reduction plateaus, indicating a balance between bias and variance.
+     * **BIC:** Statistically penalizes model complexity to guide optimal degree selection.    
 
 ## Future Deep Dives (Roadmap)
 
