@@ -159,6 +159,28 @@ To follow along, install the following Python packages:
     ![Normal equation](normal_equation.png)
     - Implement the normal equation using NumPy.
     - Explore how different preprocessing techniques affect the normal equation's outcome.
+      **Why this equation!**
+      
+    *Notice: the explanation below assumes*
+        -  A is the data Matrix
+        -  x is the optimal weights
+        - y is the target variable
+    _sorry for that, but I hope after this explanation you will be able to comprehend this amazing   image below_
+
+    **Let's go!**
+    - since data 99% comes in a rectangle shape which means that there is no absolute solution for Ax = b
+    - Therefore  we tend to minimize the error between our  prediction and the ground truth aka 
+	minimize (b-Ax or better-minimizing score error (b-Ax)^2 _in calculus language_
+    - in linear algebra, we say b is not in the column space of A thus we project b into the column             space of A, introducing an error term you guessed it!  (b-Ax) 
+	- this error term is perpendicular to the column space of A as the image shows
+	- which means that A^T *  error =0 
+	- which means that A^T * (b-Ax) =0
+	- which lead to A^T * A x = A^T * b
+
+    for more information please check[introduction to linear algebra 5.th edition , chapter 4 .Orthogonality . Least squares](https://math.mit.edu/~gs/linearalgebra/ila5/indexila5.html)
+
+this whole explanation is summarized in this beautiful image :) 
+![least squares form introduction to linear algebra by Gilbert Strange](leastSquare.png)
 
 13. **Time Complexity Analysis**:
     - Compare the time complexity of linear regression (O(n * k * d)) and the normal equation (O(d^3)).
