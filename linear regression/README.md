@@ -162,9 +162,13 @@ To follow along, install the following Python packages:
       **Why this equation!**
       
     *Notice: the explanation below assumes*
+
+    
         -  A is the data Matrix
         -  x is the optimal weights
         - y is the target variable
+
+    
     _sorry for that, but I hope after this explanation you will be able to comprehend this amazing   image below_
 
     **Let's go!**
@@ -181,6 +185,9 @@ To follow along, install the following Python packages:
 
 this whole explanation is summarized in this beautiful image :) 
 ![least squares form introduction to linear algebra by Gilbert Strange](leastSquare.png)
+
+
+
 
 13. **Time Complexity Analysis**:
     - Compare the time complexity of linear regression (O(n * k * d)) and the normal equation (O(d^3)).
