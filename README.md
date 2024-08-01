@@ -54,11 +54,11 @@ Each algorithm in this repository includes:
      
 *  **hands-on project diving into regression and regularization techniques in Python using scikit-learn**[here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/RegressorsAndRegularization)
   It guides you through:
-  - **Exploring polynomial regression** by varying degrees and analyzing its impact on error , more on that [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Polynomial%20regression).
-  - **Implementing custom functions for monomial feature** creation and error visualization.
-  - **Applying Ridge and Lasso regularization** to optimize model performance and perform feature selection.
-  - **Building a custom regularized linear regression class with NumPy**.
-  - **Constructing a machine learning pipeline with data preprocessing, polynomial feature engineering, and Ridge regression using GridSearchCV for hyperparameter tuning**.
+   - **Exploring polynomial regression** by varying degrees and analyzing its impact on error , more on that [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Polynomial%20regression).
+   - **Implementing custom functions for monomial feature** creation and error visualization.
+   - **Applying Ridge and Lasso regularization** to optimize model performance and perform feature selection.
+   - **Building a custom regularized linear regression class with NumPy**.
+   - **Constructing a machine learning pipeline with data preprocessing, polynomial feature engineering, and Ridge regression using GridSearchCV for hyperparameter tuning**.
 
 The project aims to provide practical experience with these essential machine learning concepts and tools. 
 
