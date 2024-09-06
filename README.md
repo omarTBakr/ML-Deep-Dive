@@ -74,4 +74,4 @@ The project aims to provide practical experience with these essential machine le
 
 ## Contributing
 
-I welcome contributions! If you'd like to suggest improvements, point out errors, or add an algorithm deep dive, feel free to open an issue or submit a pull request. Let's learn and grow together! 
+I welcome contributions! If you'd like to suggest improvements, point out errors, or add an algorithm deep dive, feel free to open an issue or submit a pull request! 
