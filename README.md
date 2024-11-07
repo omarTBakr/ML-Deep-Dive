@@ -68,8 +68,8 @@ Each algorithm in this repository includes:
   you will find
   - **clear implementation using python**
   - **how to initialize k ?**
-  - ***which number of clusters to use?**
-  - **comparing my implementation against `sklearn.cluster.KMeans**
+  - **which number of clusters to use?**
+  - **comparing my implementation against `sklearn.cluster.KMeans`**
  
     
 The project aims to provide practical experience with these essential machine learning concepts and tools. 
