@@ -62,14 +62,22 @@ Each algorithm in this repository includes:
    - **Building a custom regularized linear regression class with NumPy**.
    - **Constructing a machine learning pipeline with data preprocessing, polynomial feature engineering, and Ridge regression using GridSearchCV for hyperparameter tuning**.
 
+
+* **KMeans implementation from scratch using numpy** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Kmeans)
+
+  you will find
+  - **clear implementation using python**
+  - **how to initialize k ?**
+  - ***which number of clusters to use?**
+  - **comparing my implementation against `sklearn.cluster.KMeans**
+ 
+    
 The project aims to provide practical experience with these essential machine learning concepts and tools. 
 
 ## Future Deep Dives (Roadmap)
 
 * **Support Vector Machines (SVM):**  Different kernels, optimization techniques.
 * **Neural Networks:**  From perceptrons to multi-layer architectures, backpropagation, activation functions. 
-* **K-Nearest Neighbors (K-NN):**  Distance metrics, choosing the optimal k.
-* **Decision Trees:**  Splitting criteria, pruning, ensemble methods.
 * **Clustering Algorithms:**  K-Means, DBSCAN, hierarchical clustering.
 
 ## Contributing
