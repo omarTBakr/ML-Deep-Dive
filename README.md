@@ -37,7 +37,7 @@ Each algorithm in this repository includes:
        - Vectorized implementation using NumPy for efficiency.
        - Time Complexity Analysis: O(n * k * d) 
     - **Hyperparameter Tuning:**  Finding optimal parameters for improved performance.
-    - **Data Preprocessing:**  Min-Max Scaling, Standardization, and their impact.
+    - **Data Preprocessing:**  Min-Max Scaling, Standardisation, and their impact.
     - **Normal Equation:**  A direct solution method as an alternative to Gradient Descent.
        - Implementation and explanation of its derivation.
        - Time Complexity Analysis:  O(d^3)
@@ -50,25 +50,28 @@ Each algorithm in this repository includes:
     -  **Finding the optimal degree:**
        * **Experiment:** Test different polynomial degrees and observe their impact on model fit.
        * **Error analysis (MSE):** Identify the degree where error reduction plateaus, indicating a balance between bias and variance.
-       * **BIC:** Statistically penalizes model complexity to guide optimal degree selection.
+       * **BIC:** Statistically penalises model complexity to guide optimal degree selection.
      
-*  **hands-on project diving into regression and regularization techniques in Python using scikit-learn**[here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/RegressorsAndRegularization)
+*  **hands-on project diving into regression and regularisation techniques in Python using scikit-learn**[here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/RegressorsAndRegularization)
 
 
    It guides you through:
-   - **Exploring polynomial regression** by varying degrees and analyzing its impact on error , more on that [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Polynomial%20regression).
-   - **Implementing custom functions for monomial feature** creation and error visualization.
+   - **Exploring polynomial regression** by varying degrees and analysing its impact on error, more on that [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Polynomial%20regression).
+   - **Implementing custom functions for monomial feature** creation and error visualisation.
    - **Applying Ridge and Lasso regularization** to optimize model performance and perform feature selection.
    - **Building a custom regularized linear regression class with NumPy**.
    - **Constructing a machine learning pipeline with data preprocessing, polynomial feature engineering, and Ridge regression using GridSearchCV for hyperparameter tuning**.
 
-
+* **Neural Networks (From First Principles):** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/NeuralNetwork)
+    - **Building Blocks:** Constructing `Neuron`, `NeuralLayer`, and `NeuralNetwork` classes from the ground up to demystify their interactions.
+    - **Core Algorithms:** Step-by-step implementation of feedforward and backpropagation with minimal library abstraction, focusing on the underlying mechanics.
+    - **Practical Context:** Includes a Scikit-learn `MLPRegressor` example with `GridSearchCV` for a complete learning perspective.
 * **KMeans implementation from scratch using numpy** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Kmeans)
 
-  you will find
-  - **clear implementation using python**
-  - **how to initialize k ?**
-  - **which number of clusters to use?**
+  You will find
+  - **clear implementation using Python**
+  - **How to initialize k ?**
+  - **Which number of clusters to use?**
   - **comparing my implementation against `sklearn.cluster.KMeans`**
  
     
@@ -77,7 +80,7 @@ The project aims to provide practical experience with these essential machine le
 ## Future Deep Dives (Roadmap)
 
 * **Support Vector Machines (SVM):**  Different kernels, optimization techniques.
-* **Neural Networks:**  From perceptrons to multi-layer architectures, backpropagation, activation functions. 
+ 
 * **Clustering Algorithms:**  K-Means, DBSCAN, hierarchical clustering.
 
 ## Contributing
