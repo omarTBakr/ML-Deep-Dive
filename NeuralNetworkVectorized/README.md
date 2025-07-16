@@ -1,4 +1,3 @@
-
 # Multiclass Classification Neural Network (Educational)
 
 This project demonstrates a simple, fully vectorized neural network for multiclass classification, implemented from scratch in Python using only NumPy. The code is designed for educational purposes, focusing on clarity and step-by-step understanding of neural network mechanics.
