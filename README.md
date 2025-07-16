@@ -69,17 +69,16 @@ Each algorithm in this repository includes:
  
 *  **Neural Network Vectorize Implemntations)** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/NeuralNetworkVectorized)
 
- 
-  - From-scratch neural network for multiclass classification using only NumPy, with a fully vectorized approach for both forward and backward passes.
-  - Flexible architecture: Easily adjust the number of hidden units and activation functions.
-  - Hands-on with MNIST: Trains and evaluates on the MNIST handwritten digit dataset, including data loading and preprocessing utilities.
-  - Softmax, Cross-Entropy, and KL-Divergence:
-  - Includes both code and detailed theoretical derivations for the softmax function, its Jacobian (derivative), cross-entropy loss, and KL-divergence.
-  - Explores the mathematical relationship and similarities between cross-entropy and KL-divergence in the context of neural network training.
- 
-  - der_softmax.py for softmax and its derivatives [here](https://github.com/omarTBakr/ML-Deep-Dive/blob/main/NeuralNetworkVectorized/der_softmax.py)
-  - multiclass_classification_theoritical_quesetions.pdf for theory and derivations  [here](https://github.com/omarTBakr/ML-Deep-Dive/blob/main/NeuralNetworkVectorized/multiclass_classification_theoritical_quesetions.pdf)
-   - 
+   
+    - **Implementing a network form scratch in a vectorized manner**
+    - **Flexible architecture:** Easily adjust the number of hidden units and activation functions.
+    - **practice on MNIST data set**
+    - **Softmax, Cross-Entropy, and KL-Divergence , with some theoritical and practical questions**
+    - **Explores the mathematical relationship and similarities between cross-entropy and KL-divergence in the context of neural network training.**
+   
+    - der_softmax.py for softmax and its derivatives [here](https://github.com/omarTBakr/ML-Deep-Dive/blob/main/NeuralNetworkVectorized/der_softmax.py)
+    - multiclass_classification_theoritical_quesetions.pdf for theory and derivations  [here](https://github.com/omarTBakr/ML-Deep-Dive/blob/main/NeuralNetworkVectorized/multiclass_classification_theoritical_quesetions.pdf)
+      
 * **KMeans implementation from scratch using numpy** [here](https://github.com/omarTBakr/ML-Deep-Dive/tree/main/Kmeans)
 
   - You will find
